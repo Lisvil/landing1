@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://kit.fontawesome.com/c90090fe62.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Test</title>
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+
+  <script src="js/index.js" defer></script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo">
+            Luxterior
+          </div>
+          <nav class="header__menu menu"> 
+            <a href="#" class="menu__item menu__item_active">
+              Home
+            </a>
+            <a href="#" class="menu__item">
+              About
+            </a>
+            <a href="#" class="menu__item">
+              Features
+            </a>
+            <a href="#" class="menu__item">
+              Contacts
+            </a>
+          </nav>
+
+        </header>
+        <main>
+          <div class="main-article">
+            <div class="main-article__row">
+              <div class="main-article__column main-article__column_left">
+                  <div class="main-article__title">Office Design Made Affordable</div>
+                  <div class="main-article__text">
+                    We`re an office interior design firm dedicated to design the perfect office environment for your team.
+                  </div>
+                  <div class="main-article__button">
+                    <button>
+                      Get Started
+                    </button>
+                  </div>
+                <div class="main-article__image main-article__image_left">
+                  <img id="img1" src="img/img1.jpg"/>
+                </div>
+              </div>
+              <div class="main-article__column main-article__column_right">
+                <div class="main-article__image main-article__image_right">
+                  <img id="img2" src="img/img2.jpg"/>
+                </div>
+                <div class="main-article__nav nav">
+                  <div class="nav__container">
+                    <div class="nav__text">
+                      Explore More
+                    </div>
+                    <div class="nav__controls">
+                      <div class="nav__button nav__button_prev"><i class="fa-solid fa-arrow-left"></i></div>
+                      <div class="nav__button nav__button_next"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                  </div>
+                  <div class="nav__progress">
+                    <div class="nav__progress_active"></div>
+                  </div>
+                  <div class="nav__info">
+                    1 / 4
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefits">
+            <div class="benefits__header">
+              <div class="benefits__line">
+              </div>
+              <div class="benefits__title">
+                Benefits you get when using our services
+              </div>
+            </div>
+            <div class="benefits__body">
+                <div class="benefits__column">
+                  <div class="benfits__column_icon"><i class="fa-solid fa-award"></i></div>
+                  <div class="benefits__column_info">
+                    <div class="benefits__column_title">Best Quality</div>
+                    <div class="benefits__column_text">All of our furniture uses the best materials and choices for our customers</div>
+                  </div>
+                </div>
+                <div class="benefits__column">
+                  <div class="benfits__column_icon"><i class="fa-solid fa-truck-fast"></i></div>
+                  <div class="benefits__column_info">
+                    <div class="benefits__column_title">Free Shipping</div>
+                    <div class="benefits__column_text">Free shipping everytime you buy furniture from us without exeption</div>
+                  </div>
+                </div>
+                <div class="benefits__column">
+                  <div class="benfits__column_icon"><i class="fa-regular fa-circle-check"></i></div>
+                  <div class="benefits__column_info">
+                    <div class="benefits__column_title">Warranty</div>
+                    <div class="benefits__column_text">Every time you buy our furniture products you will get a warranty without exception</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__img">
+              <!-- <img src="https://plantplan.co.uk/media/blog/uploads/2020/09/incorporate-plants-into-your-office-design.jpg"> -->
+              <img src="img/img_ex.jpg" alt="">
+            </div>
+            <div class="experiece__info">
+              <div class="experience__title">
+                We provide you the best experience
+              </div>
+              <div class="experience__text">
+                You don`t worry about the results because all of these interiors are professionals in their fields with an elegant and luxurious style and with premium quality materials
+              </div>
+              <div class="experience__row">
+                <div class="experience__column">
+                  <div class="experience__column__number">17</div>
+                  <div class="experience__column__text">Years experience</div>
+                </div>
+                <div class="experience__column">
+                  <div class="experience__column__number">85</div>
+                  <div class="experience__column__text">Awward gained</div>
+                </div>
+                <div class="experience__column">
+                  <div class="experience__column__number">537</div>
+                  <div class="experience__column__text">Furnitures sold</div>
+                </div>
+              </div>
+              <div class="experience__button">
+                <button>Learn more <i class="fa-solid fa-arrow-right-long"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="process">
+            <div class="process__info">
+              <div class="process__title">We provide the best process experience</div>
+              <div class="process__column">
+                <div class="process__block block">
+                  <div class="block__number">
+                    <span>01</span>
+                  </div>
+                  <div class="block__info">
+                    <div class="block__title">
+                      Briefing
+                    </div>
+                    <div class="block__text">First thing you determine the concept and model you want. then choose what colors and materials you want to use in your furniture</div>
+                  </div>
+                </div>
+                <div class="process__block block">
+                  <div class="block__number">
+                    <span>02</span>
+                  </div>
+                  <div class="block__info">
+                    <div class="block__title">
+                      Processing
+                    </div>
+                    <div class="block__text">What the breafing process is compleate and what the client wants has been achieved. Then we carry out the execution of the desired concept</div>
+                  </div>
+                </div>
+                <div class="process__block block">
+                  <div class="block__number">
+                    <span>03</span>
+                  </div>
+                  <div class="block__info">
+                    <div class="block__title">
+                      Finishing
+                    </div>
+                    <div class="block__text">After the process is complete, we will immediately carry out the finishing stage and we do it carefully and make sure there are no mistakes</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="process__img">
+              <!-- <img src="https://www.decorilla.com/online-decorating/wp-content/uploads/2018/12/contemporary-office-design-nature-plant-wall.jpg"> -->
+              <img src="img/img_p.jpg">
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="gallery__title">Our works</div>
+            <div class="gallery__container">
+              <div class="gallery__row">
+                <div class="gallery__image">
+                  <img src="img/img10.jpg">
+                </div>
+                <div class="gallery__image">
+                  <img src="img/img2.jpg">
+                </div>
+                <div class="gallery__image">
+                  <img src="img/img4.jpg">
+                </div>
+                <div class="gallery__image">
+                  <img src="img/img12.jpg">
+                </div>
+                <div class="gallery__image">
+                  <img src="img/img13.jpg">
+                </div>
+                <div class="gallery__image">
+                  <img src="img/img8.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews">
+            <div class="reviews__head">
+              <div class="reviews__title">What our customers are saying</div>
+              <div class="reviews__nav">
+                <div class="review__arrow_prev">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="review__arrow_next">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__container">
+              <div class="reviews__block review">
+                <div class="review__header"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="review__title"></div>
+                <p class="review__text"></p>
+                <div class="review__user">
+                  <div class="review__user_photo">
+
+                  </div>
+                  <div class="review__user__info">
+                    <p class="review__user_name"></p>
+                    <p class="review__user_position"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="reviews__block review">
+                <div class="review__header"><i class="fa-solid fa-quote-left"></i></div>
+                <div class="review__title"></div>
+                <p class="review__text"></p>
+                <div class="review__user">
+                  <div class="review__user_photo">
+
+                  </div>
+                  <div class="review__user__info">
+                    <p class="review__user_name"></p>
+                    <p class="review__user_position"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe">
+            <div class="subscribe__title">Subscribe to get the latest news about us</div>
+            <p class="subscribe__text">We recomended you to subscribe to our newspaper, enter your email below to get our daily update about us</p>
+            <div class="subscribe__form">
+              <div class="subscribe__form_input">
+                <input type="text" placeholder="Enter your email adress">
+              </div>
+              <div class="subscribe__form__button">
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer__info">
+          <div class="footer__title">Luxterior</div>
+          <p class="footer__text">We`re an office interior design firm dedicated to design the perfect office environment for your team.</p>
+        </div>
+        <div class="footer__socials">
+          <div class="footer__socials__icon"><i class="fa-brands fa-facebook"></i></div>
+          <div class="footer__socials__icon"><i class="fa-brands fa-youtube"></i></div>
+          <div class="footer__socials__icon"><i class="fa-brands fa-twitter"></i></div>
+          <div class="footer__socials__icon"><i class="fa-brands fa-pinterest"></i></div>
+
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
